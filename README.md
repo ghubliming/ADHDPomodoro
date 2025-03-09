@@ -35,9 +35,6 @@ The use of **SFML** keeps the GUI lightweight and responsive, ideal for a small 
 
 2. **Steps**:
    - Clone the repository:  
-     ```
-     git clone https://github.com/yourusername/ADHDPomodoro.git
-     ```
    - Open the project in your IDE.
    - Set up CMake with MSVC and point `SFML_ROOT` to your SFML installation folder.
    - Build the project to create the executable.
