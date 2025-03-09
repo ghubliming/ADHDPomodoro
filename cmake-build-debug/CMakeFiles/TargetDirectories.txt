@@ -1,0 +1,3 @@
+D:/CodeSSD/CLion/ADHDPomodoro/cmake-build-debug/CMakeFiles/ADHDPomodoro.dir
+D:/CodeSSD/CLion/ADHDPomodoro/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CodeSSD/CLion/ADHDPomodoro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
