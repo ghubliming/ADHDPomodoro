@@ -1,4 +1,9 @@
 __not finished yet__
+
+- May use such idea create a song playlist generator to create the music calm for study than phonk for rushing finally relax or happy music for rest, then repeat.
+  - Point the music/playlist length control
+  - could be dynamic adjusted by user feedback when focusing
+
 # ADHD Pomodoro Timer
 
 ## Overview
