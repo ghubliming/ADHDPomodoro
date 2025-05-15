@@ -11,8 +11,11 @@ set(SFML_DLL_DIR "${CMAKE_SOURCE_DIR}/dll") # Path to the DLLs
 # Include SFML headers
 include_directories(${SFML_INCLUDE_DIR})
 
-# Add executable
-add_executable(ADHDPomodoro src/main.cpp)
+# Add executable with all source files
+add_executable(ADHDPomodoro 
+    src/main.cpp
+    src/Settings.cpp
+)
 
 # Link SFML libraries explicitly
 target_link_libraries(ADHDPomodoro PRIVATE

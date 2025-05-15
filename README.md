@@ -1,5 +1,7 @@
 **Under construction**
 
+Settings panel not working yet
+[[CHANGELOG.md]](CHANGELOG.md)
 
 - May use such idea create a song playlist generator to create the music calm for study than phonk for rushing finally relax or happy music for rest, then repeat.
   - Point the music/playlist length control
