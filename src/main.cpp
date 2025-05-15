@@ -5,6 +5,7 @@
 #include <string>
 #include <iomanip>
 #include <sstream>
+#include <iostream>
 
 // Timer states
 enum class State {
@@ -41,8 +42,11 @@ int main() {
 
     // Load font
     sf::Font font;
-    if (!font.loadFromFile("arial.ttf")) {
+    if (!font.loadFromFile("D:/CodeSSD/CLion/ADHDPomodoro/dll/arial.ttf")) {
+        std::cerr << "Error: Failed to load font" << std::endl;
         return 1; // Exit if font fails to load
+    } else {
+        std::cout << "Font loaded successfully" << std::endl;
     }
 
     // Set up text display
