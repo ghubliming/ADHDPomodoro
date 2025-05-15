@@ -1,6 +1,6 @@
 # Changelog
 
-## [2024-03-19] - Today's Changes
+## 2025-05-15 - Today's Changes
 
 ### Added
 - Settings window functionality with separate window
