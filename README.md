@@ -3,11 +3,15 @@
 Settings panel not working yet
 [[CHANGELOG.md]](CHANGELOG.md)
 
-- May use such idea create a song playlist generator to create the music calm for study than phonk for rushing finally relax or happy music for rest, then repeat.
-  - Point the music/playlist length control
-  - could be dynamic adjusted by user feedback when focusing
+Practice C++
+- Build a database from scratch
+- GUI from Scratch
+- Connection with other apps
+  - Consider creating a song playlist generator that provides calming music for studying, phonk music for energizing moments, and relaxing or happy music for rest, then repeats the cycle. 
+  - Include a feature for controlling the length of the music or playlist. 
+  - Allow dynamic adjustments based on user feedback while they are focusing.
 
-# ADHD Pomodoro Timer
+# ADHD Pomodoro Timer -- Basic Ideas
 
 ## Overview
 The ADHD Pomodoro Timer is a productivity tool designed specifically for individuals with ADHD. Built using C++ and the SFML library, this application adapts the traditional Pomodoro technique to better suit ADHD needs by offering customizable focus and rest phases, an always-on-top timer widget, and detailed logging for productivity tracking. The goal is to help users manage their attention spans and breaks effectively.
