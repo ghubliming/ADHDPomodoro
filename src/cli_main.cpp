@@ -45,8 +45,10 @@ std::string getTimestamp();
 void clearScreen();
 void displayTimer(State currentState, int elapsedSeconds, int totalFocusTime, 
                  bool isTimerRunning, bool isPaused, const CLISettings& settings);
+#ifndef _WIN32
 bool kbhit();
 char getch();
+#endif
 void showHelp();
 void showSettings(CLISettings& settings);
 
@@ -79,13 +81,8 @@ void clearScreen() {
 
 // Cross-platform keyboard input functions
 #ifdef _WIN32
-bool kbhit() {
-    return _kbhit();
-}
-
-char getch() {
-    return _getch();
-}
+// On Windows, use the standard library functions directly
+// _kbhit() and _getch() are already provided by conio.h
 #else
 static struct termios oldt, newt;
 static bool termios_initialized = false;
@@ -314,8 +311,13 @@ int main() {
         // Handle keyboard input (non-blocking)
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
         
+#ifdef _WIN32
+        if (_kbhit()) {
+            char key = static_cast<char>(_getch());
+#else
         if (kbhit()) {
             char key = getch();
+#endif
             key = tolower(key);
             
             switch (key) {
