@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ADHDPomodoro-CLI.dir/link.d "CMakeFiles/ADHDPomodoro-CLI.dir/src/cli_main.cpp.o" "CMakeFiles/ADHDPomodoro-CLI.dir/src/CLISettings.cpp.o" -o ADHDPomodoro-CLI

@@ -1,3 +1,0 @@
-/home/runner/work/ADHDPomodoro/ADHDPomodoro/build/CMakeFiles/ADHDPomodoro-CLI.dir
-/home/runner/work/ADHDPomodoro/ADHDPomodoro/build/CMakeFiles/edit_cache.dir
-/home/runner/work/ADHDPomodoro/ADHDPomodoro/build/CMakeFiles/rebuild_cache.dir

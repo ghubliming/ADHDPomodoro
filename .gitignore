@@ -1,0 +1,53 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# Generated executables  
+ADHDPomodoro
+ADHDPomodoro.exe
+ADHDPomodoro-CLI
+ADHDPomodoro-CLI.exe
+
+# Settings and log files
+settings.txt
+log.txt
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Compiled Object files
+*.o
+*.obj
+*.d
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output.txt
