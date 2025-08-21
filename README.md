@@ -40,13 +40,34 @@ The project is built with an object-oriented design in C++ to keep the code modu
 The use of **SFML** keeps the GUI lightweight and responsive, ideal for a small utility like this. The always-on-top feature is implemented with a mix of SFML and Windows API calls, ensuring the timer remains accessible at all times.
 
 ## Installation
+
+### CLI Version (Cross-Platform)
+1. **Prerequisites**:
+   - A C++ compiler (GCC, Clang, or MSVC)
+   - CMake (version 3.22 or later)
+
+2. **Steps**:
+   ```bash
+   git clone https://github.com/ghubliming/ADHDPomodoro.git
+   cd ADHDPomodoro
+   mkdir build && cd build
+   cmake .. -DBUILD_CLI_ONLY=ON
+   make  # On Windows: cmake --build .
+   ```
+
+3. **Running**:
+   ```bash
+   ./ADHDPomodoro-CLI  # On Windows: ADHDPomodoro-CLI.exe
+   ```
+
+### GUI Version (Windows)
 1. **Prerequisites**:
    - A C++ IDE like [CLion](https://www.jetbrains.com/clion/).
    - [SFML](https://www.sfml-dev.org/download.php) (version 2.5.1 or later) for MSVC.
    - Windows 11 (currently Windows-specific due to API usage).
 
 2. **Steps**:
-   - Clone the repository:  
+   - Clone the repository
    - Open the project in your IDE.
    - Set up CMake with MSVC and point `SFML_ROOT` to your SFML installation folder.
    - Build the project to create the executable.
@@ -56,6 +77,43 @@ The use of **SFML** keeps the GUI lightweight and responsive, ideal for a small 
    - Ensure SFML DLLs are in the same folder as the executable.
 
 ## Usage
+
+### CLI Version
+The command line version provides the same functionality as the GUI version with keyboard controls:
+
+**Getting Started:**
+```bash
+./ADHDPomodoro-CLI
+```
+
+**Controls:**
+- `s/S` - Start timer
+- `p/P` - Pause/Resume timer  
+- `f/F` - Finish current session
+- `c/C` - Show/Edit settings
+- `h/H` - Show help
+- `q/Q` - Quit
+
+**During Extended Focus:**
+- `g/G` - Good session (go to rest)
+- `b/B` - Bad session (go to rest)
+- `o/O` - Okay session (go to rest)
+- `h/H` - Enter Hyperfocus mode
+
+**During Hyperfocus:**
+- `r/R` - Go to rest
+
+**During Rest/Idle:**
+- `f/F` - Start new focus session
+
+**Settings:**
+- Focus and rest durations can be adjusted through the settings menu (`c/C`)
+- Settings are automatically saved to `settings.txt`
+- All sessions are logged to `log.txt` with timestamps
+
+### GUI Version
+The graphical version provides the same timer functionality with an always-on-top window interface:
+
 - **Start**: Run the app to begin a focus session.
 - **Interact**:
   - In Extended Focus: Press `G` (Good), `B` (Bad), `O` (Okay), or `H` (Hyperfocus).
