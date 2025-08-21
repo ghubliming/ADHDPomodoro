@@ -1,0 +1,25 @@
+# Build directories
+build/
+out/
+
+# Visual Studio artifacts
+.vs/
+*.vcxproj.user
+*.sln.user
+
+# Executable and DLLs
+*.exe
+*.dll
+
+# Settings and log files (these are runtime generated)
+settings.txt
+log.txt
+
+# IDE files
+.idea/
+*.iml
+
+# Temporary files
+*~
+*.tmp
+*.bak
