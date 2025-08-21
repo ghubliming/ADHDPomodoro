@@ -1,0 +1,174 @@
+Starting ADHD Pomodoro Timer - CLI Version...
+Settings loaded: Focus=10min, Rest=5min
+[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Controls:
+  s/S - Start timer
+  p/P - Pause/Resume timer
+  f/F - Finish current session
+  c/C - Show/Edit settings
+  h/H - Show this help
+  q/Q - Quit
+
+During Extended Focus:
+  g/G - Good session (go to rest)
+  b/B - Bad session (go to rest)
+  o/O - Okay session (go to rest)
+  h/H - Enter Hyperfocus mode
+
+During Hyperfocus:
+  r/R - Go to rest
+
+During Rest/Idle:
+  f/F - Start new focus session
+
+Press any key to continue...
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to start, 'h' for help, 'q' to quit
+
+Settings: Focus=10min, Rest=5min
+Press 'h' for help, 'c' for settings, 'q' to quit
+
+=== ADHD Pomodoro Timer - CLI Version ===
+
+Status: Ready to start
+Press 's' to s[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J
