@@ -1,54 +1,16 @@
-#!/bin/bash
+# Quick start
 
-# ADHD Pomodoro CLI - Quick Start Guide and Examples
+```bash
+cmake -S . -B build -DBUILD_CLI_ONLY=ON
+cmake --build build --config Release
+./build/adhd-pomodoro
+```
 
-echo "=== ADHD Pomodoro CLI - Quick Start Guide ==="
-echo ""
+1. Press `s` to start a focus session (or `m` for a 5-minute tiny start if starting feels hard).
+2. Distracting thought? `d`, type it, Enter. It waits in `parked.md` for your break.
+3. When the timer runs out you're **not** interrupted. Keep going as long as it flows.
+4. When you surface, rate it: `g` good, `o` okay, `b` bad. Ratings tune your next focus length.
+5. Rest. When the break ends, press `s` again.
 
-echo "1. Building the CLI version:"
-echo "   mkdir build && cd build"
-echo "   cmake .. -DBUILD_CLI_ONLY=ON"
-echo "   make"
-echo ""
-
-echo "2. Running the application:"
-echo "   ./ADHDPomodoro-CLI"
-echo ""
-
-echo "3. Basic Usage Flow:"
-echo "   - Press 's' to start a focus session"
-echo "   - Focus timer counts down from your set duration (default 10 min)"
-echo "   - After focus time, you enter Extended Focus mode"
-echo "   - Rate your session: 'g' (good), 'b' (bad), 'o' (okay), or 'h' (hyperfocus)"
-echo "   - Take a rest break, then press 'f' to start next focus session"
-echo ""
-
-echo "4. Key Features:"
-echo "   - Cross-platform (Windows & Linux)"
-echo "   - Same timer logic as GUI version"
-echo "   - All ADHD-focused states: Focus → Extended → Rest → Idle"
-echo "   - Hyperfocus mode for deep work sessions"
-echo "   - Settings adjustment via 'c' key"
-echo "   - Session logging to log.txt"
-echo "   - Persistent settings in settings.txt"
-echo ""
-
-echo "5. Controls Quick Reference:"
-echo "   s/S - Start timer"
-echo "   p/P - Pause/Resume"
-echo "   f/F - Finish session (or start new focus during rest)"
-echo "   c/C - Settings menu"
-echo "   h/H - Help (or enter hyperfocus from extended focus)"
-echo "   q/Q - Quit"
-echo ""
-echo "   During Extended Focus: g/b/o/h for feedback"
-echo "   During Hyperfocus: r to go to rest"
-echo "   During Rest/Idle: f to start new focus"
-echo ""
-
-echo "6. Example Session Flow:"
-echo "   [Start] → [Focus 10min] → [Extended Focus: rate it] → [Rest 5min] → [Idle: start next]"
-echo ""
-
-echo "Build complete! Ready to use:"
-echo "cd /home/runner/work/ADHDPomodoro/ADHDPomodoro/build && ./ADHDPomodoro-CLI"
+Press `?` in the app for all keys, `i` for stats, `c` for settings.
+Run `./build/adhd-pomodoro stats` any time to see how you're doing.

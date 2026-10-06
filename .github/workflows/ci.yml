@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: cmake -S . -B build -DBUILD_CLI_ONLY=ON -DCMAKE_BUILD_TYPE=Release
+      - name: Build
+        run: cmake --build build --config Release --parallel
+      - name: Test
+        run: ctest --test-dir build -C Release --output-on-failure
+      - name: Smoke test
+        shell: bash
+        run: |
+          bin=build/adhd-pomodoro
+          [ -f build/Release/adhd-pomodoro.exe ] && bin=build/Release/adhd-pomodoro.exe
+          "$bin" --version
+          "$bin" --data-dir smoke where
+          "$bin" --data-dir smoke stats

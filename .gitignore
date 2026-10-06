@@ -74,3 +74,8 @@ log.txt
 *~
 *.tmp
 *.bak
+
+# ADHD Pomodoro data (when run with --data-dir .)
+settings.conf
+sessions.csv
+parked.md
